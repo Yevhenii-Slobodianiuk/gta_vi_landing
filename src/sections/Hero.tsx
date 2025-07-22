@@ -49,7 +49,8 @@ const Hero = () => {
             "radial-gradient(circle at 50% 0vh, black 50%, transparent 100%)",
         },
         "<"
-      );
+      )
+      .to(".overlay-logo", { opacity: 0, ease: "power1.inOut" }, "<");
   });
 
   return (
